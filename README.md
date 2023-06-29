@@ -34,11 +34,16 @@ enlace para ver el proyecto <a href="https://microfront-5d14b.firebaseapp.com/" 
 ```
 
 ```sh
-   cd packages/home
+   cd packages/detail
    yarn start
 ```
 
 ```sh
-   cd packages/detail
+   cd packages/harrypotter
+   yarn start
+```
+
+```sh
+   cd packages/rickyandmorty
    yarn start
 ```
