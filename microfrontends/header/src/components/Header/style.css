@@ -1,0 +1,21 @@
+.list-language {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    text-align: left;
+}
+
+.list-language li {
+    display: inline-block;
+}
+
+.list-language button {
+    appearance: none;
+    background: transparent;
+    border: none;
+    font-size: 1.4em;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}

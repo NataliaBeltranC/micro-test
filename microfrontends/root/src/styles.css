@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --gray-harry: #C0C0C0;
+    --gryffindor: #740001;
+    --ravenclaw: #000A90;
+    --slytherin: #1A472A;
+    --hufflepuff: #FFD700;
+    --other: #ccc;
+    --rickYellow: #FFFF00;
+    --alien: #FF0077;
+    --human: #91CF00;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+.button-general {
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid var(--black);
+    font-size: 1em;
+    padding: 1em;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+    z-index: 3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-general:hover {
+    background: var(--black);
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+
+.inicio {
+    display: flex;
+    height: 100vh;
+}
+
+.inicio > div {
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.harry > div, .ricky > div {
+    z-index: 2;
+}

@@ -1,0 +1,28 @@
+.harry {
+    background-color: var(--gray-harry);
+}
+
+.harry:before {
+    content: '';
+    background-image: url("./image/dobby.png");
+    height: 100%;
+    background-size: 18%;
+    width: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: 1em;
+}
+.harry:after {
+    content: '';
+    background-image: url("./image/lechuza.png");
+    height: 100%;
+    background-size: 30%;
+    width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

@@ -1,0 +1,18 @@
+<single-spa-router>
+  <main>
+    <route default>
+      <application name="@microfrontend/header"></application>
+      <div class="inicio">
+        <div class="harry">
+          <application name="@microfrontend/harrypotter"></application>
+        </div>
+        <div class="ricky">
+          <application name="@microfrontend/rickyandmorty"></application>
+        </div>
+      </div>
+      <div id="detail">
+        <application name="@microfrontend/detail"></application>
+      </div>
+    </route>
+  </main>
+</single-spa-router>

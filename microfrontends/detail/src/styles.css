@@ -1,0 +1,75 @@
+.gryffindor, .ravenclaw, .slytherin, .hufflepuff, .ninguna {
+    color:  var(--white);
+    padding: 1em;
+    margin: 0;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.gryffindor{
+    background-color: var(--gryffindor);
+}
+
+.ravenclaw{
+    background-color: var(--ravenclaw);
+}
+
+.slytherin{
+    background-color:  var(--slytherin);
+}
+
+.hufflepuff{
+    background-color:  var(--hufflepuff);
+}
+.ninguna{
+    background-color:  var(--other);
+}
+
+.up {
+    margin: 1em;
+    position: absolute;
+    right: 0;
+    background: transparent;
+    border: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 2em;
+    margin: 5em 0;
+}
+
+.alien, .human {
+    padding: 1em;
+    border-radius: 4px;
+    margin: 0;
+    color: var(--white);
+    padding: 1em;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.alien {
+    background-color: var(--alien);
+}
+
+.human {
+    background-color: var(--human);
+}
+
+.container-image{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.container-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

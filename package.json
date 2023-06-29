@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "microfrontends/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.1.0"
+  },
+  "resolutions": {
+    "@types/react": "^17.0.19"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
