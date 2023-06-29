@@ -3,7 +3,8 @@ import Root from "./root.component";
 
 describe("Root component", () => {
   it("should be in the document", () => {
-    const { getByText } = render(<Root name="Testapp" />);
-    expect(getByText(/Testapp is mounted!/i)).toBeInTheDocument();
+    const { getByText, container } = render(<Root name="Testapp" />);
+    expect(getByText(/Rick and Morty/i)).toBeInTheDocument();
+    expect(container).toMatchSnapshot();
   });
 });

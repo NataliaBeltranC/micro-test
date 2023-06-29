@@ -46,19 +46,28 @@ button {
 
 .inicio {
     display: flex;
-    height: 100vh;
+    height: 100%;
+    flex-flow: row wrap;
+    width: 100%;
 }
 
 .inicio > div {
-    flex-basis: 50%;
-    height: 100%;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     overflow: hidden;
+    width: 100%;
 }
 
 .harry > div, .ricky > div {
     z-index: 2;
+}
+
+@media(min-width: 768px) {
+    .inicio > div {
+        flex-basis: 50%;
+        height: 100vh;
+    }
 }

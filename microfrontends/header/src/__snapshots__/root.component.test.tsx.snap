@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Root component should be in the document 1`] = `
+<div>
+  <header>
+    <ul
+      class="list-language"
+    >
+      <li>
+        <button>
+          es /
+        </button>
+      </li>
+      <li>
+        <button>
+          en
+        </button>
+      </li>
+    </ul>
+  </header>
+</div>
+`;

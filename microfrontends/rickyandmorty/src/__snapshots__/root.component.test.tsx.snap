@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Root component should be in the document 1`] = `
+<div>
+  <button
+    class="button-general"
+  >
+    Ver personajes de Rick and Morty
+  </button>
+</div>
+`;
